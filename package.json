@@ -1,0 +1,40 @@
+{
+	"name": "wp-react-theme-boilerplate",
+	"version": "1.0.0",
+	"description": "A template for a WordPress theme including Webpack/React/SCSS",
+	"main": "src/index.js",
+	"license": "MIT",
+	"scripts": {
+		"start": "webpack --watch",
+		"build": "webpack src/index.js"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.5.5",
+		"@babel/plugin-proposal-class-properties": "^7.5.5",
+		"@babel/preset-env": "^7.5.5",
+		"@babel/preset-react": "^7.0.0",
+		"babel-loader": "^8.0.6",
+		"css-loader": "^3.2.0",
+		"file-loader": "^4.2.0",
+		"html-webpack-plugin": "^3.2.0",
+		"node-sass": "^4.12.0",
+		"sass-loader": "^8.0.0",
+		"style-loader": "^1.0.0",
+		"webpack": "^4.39.2",
+		"webpack-cli": "^3.3.7",
+		"webpack-dev-server": "^3.8.0"
+	},
+	"dependencies": {
+		"classnames": "^2.2.6",
+		"debug": "^4.1.1",
+		"lodash": "^4.17.15",
+		"prop-types": "^15.7.2",
+		"react": "^16.9.0",
+		"react-dom": "^16.9.0",
+		"react-redux": "^7.1.1",
+		"react-router-dom": "^5.0.1",
+		"react-transition-group": "^4.3.0",
+		"redux": "^4.0.4",
+		"underscore": "^1.9.1"
+	}
+}
