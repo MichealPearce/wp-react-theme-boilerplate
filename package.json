@@ -27,7 +27,7 @@
 	"dependencies": {
 		"classnames": "^2.2.6",
 		"debug": "^4.1.1",
-		"lodash": "^4.17.15",
+		"lodash": "^4.17.21",
 		"prop-types": "^15.7.2",
 		"react": "^16.9.0",
 		"react-dom": "^16.9.0",
